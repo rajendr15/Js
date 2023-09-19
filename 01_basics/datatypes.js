@@ -24,3 +24,19 @@ const myFunction = function(){
       console.log("Hello world");
 }
 
+// ######################################################################
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "this is rajendra"
+let anothername =myYoutubename
+anothername="hiii"
+console.log(anothername)
+console.log(anothername)
+
+let userOne = {
+    use :"rajone",
+    password : "123"
+} 
+ let userTwo = userOne
+ userTwo.use = "123@gmail.com"
+ console.log(userOne)
